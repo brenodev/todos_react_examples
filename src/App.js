@@ -1,7 +1,9 @@
 import React from 'react';
+import TodoStateFull from './components/todoStatefull';
 
 function App() {
-  return <h1>APP</h1>
+  return (<TodoStateFull />
+  )
 }
 
 export default App;
